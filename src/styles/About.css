@@ -108,7 +108,7 @@
   color: #F1F2F2;
   text-transform: uppercase;
   letter-spacing: 10px;
-  font-size: 4rem;
+  font-size: 3.75rem;
   line-height: 7rem;
 }
 
@@ -117,7 +117,7 @@
   line-height: 2rem;
   letter-spacing: 2px;
   color: #F1F2F2;
-  font-size: 1.10rem;
+  font-size: 1rem;
   font-weight: 200;
 }
 
@@ -130,7 +130,7 @@
   text-transform: uppercase;
   letter-spacing: 5px;
   font-weight: 500;
-  font-size: 2.50rem;
+  font-size: 2.25rem;
 }
 
 .we-do{
@@ -143,7 +143,7 @@
 }
 
 .we-do h1{
-  margin-bottom: 1.10rem;
+  margin-bottom: 1rem;
   color: #1B261D;
   text-transform: uppercase;
   font-weight: 400;
@@ -153,6 +153,6 @@
 .we-do p{
   letter-spacing: 3px;
   line-height: 1.70rem;
-  font-size: 1.10rem;
+  font-size: 0.90rem;
   font-weight: 300;
 }

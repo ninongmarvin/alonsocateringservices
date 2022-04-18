@@ -129,10 +129,12 @@
 }
 
 .left a{
+  padding: 0.30rem;
   font-size: .90rem;
 }
 
 .right a{
+  padding: 0.30rem;
   font-size: 0.90rem;
 }
 
