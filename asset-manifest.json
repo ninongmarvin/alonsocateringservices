@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/alonsocateringservices/static/css/main.8dfc8de5.css",
+    "main.js": "/alonsocateringservices/static/js/main.29d41927.js",
+    "static/media/history2.jpg": "/alonsocateringservices/static/media/history2.fc4bb3c67ed730a9637f.jpg",
+    "static/media/banner.jpg": "/alonsocateringservices/static/media/banner.3bfd1bd3dce394745190.jpg",
+    "static/media/venue.jpg": "/alonsocateringservices/static/media/venue.dd1f867913996e8f7923.jpg",
+    "static/media/kid.jpg": "/alonsocateringservices/static/media/kid.3dadab85e94b886c76ff.jpg",
+    "static/media/pork.jpg": "/alonsocateringservices/static/media/pork.98896696e80808a9c5df.jpg",
+    "static/media/history3.jpg": "/alonsocateringservices/static/media/history3.b56f3764b72f5cd015d9.jpg",
+    "static/media/beef.jpg": "/alonsocateringservices/static/media/beef.f4a6ffed8d5ed4448fdb.jpg",
+    "static/media/foods.jpg": "/alonsocateringservices/static/media/foods.46487be91fcbde5f1dd3.jpg",
+    "static/media/corporate.jpg": "/alonsocateringservices/static/media/corporate.6c56385441ee990c9b2b.jpg",
+    "static/media/pasta.jpg": "/alonsocateringservices/static/media/pasta.46a67cd764e8a9dfe5b4.jpg",
+    "static/media/about.jpg": "/alonsocateringservices/static/media/about.50976866a66d690745cc.jpg",
+    "static/media/mindanao.jpg": "/alonsocateringservices/static/media/mindanao.cd38f2025ae38bb14781.jpg",
+    "static/media/fish.jpg": "/alonsocateringservices/static/media/fish.bb4759eba2161a5916ca.jpg",
+    "static/media/history1.jpg": "/alonsocateringservices/static/media/history1.7695efce0d0249086fba.jpg",
+    "static/media/birthday.jpg": "/alonsocateringservices/static/media/birthday.5586bd4cffe1aaedaebf.jpg",
+    "static/media/privateParty.jpg": "/alonsocateringservices/static/media/privateParty.23c8cd393378dfba4f35.jpg",
+    "static/media/contact.jpg": "/alonsocateringservices/static/media/contact.a44086d9e4e85aaf3cdd.jpg",
+    "static/media/visayas.jpg": "/alonsocateringservices/static/media/visayas.1c034aabd178a09c9dc6.jpg",
+    "static/media/wedding.jpg": "/alonsocateringservices/static/media/wedding.53a4e8ce8175a3dbb337.jpg",
+    "static/media/christening.jpg": "/alonsocateringservices/static/media/christening.d648e0ab6daf28d6aec1.jpg",
+    "static/media/luzon.jpg": "/alonsocateringservices/static/media/luzon.2ac8549bdc57827ec7b3.jpg",
+    "static/media/vegetables.jpg": "/alonsocateringservices/static/media/vegetables.523a6f250bf030f8ed3c.jpg",
+    "static/media/catering.jpg": "/alonsocateringservices/static/media/catering.7bdd87af3c3740a206b7.jpg",
+    "static/media/pancit.jpg": "/alonsocateringservices/static/media/pancit.83d8873590b23afcb5ad.jpg",
+    "static/media/debut.jpg": "/alonsocateringservices/static/media/debut.13fa51c9c81277f70344.jpg",
+    "static/media/chicken.jpg": "/alonsocateringservices/static/media/chicken.310a12ffbed4e9a795ca.jpg",
+    "index.html": "/alonsocateringservices/index.html",
+    "main.8dfc8de5.css.map": "/alonsocateringservices/static/css/main.8dfc8de5.css.map",
+    "main.29d41927.js.map": "/alonsocateringservices/static/js/main.29d41927.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8dfc8de5.css",
+    "static/js/main.29d41927.js"
+  ]
+}
