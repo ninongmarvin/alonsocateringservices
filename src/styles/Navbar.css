@@ -116,26 +116,26 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 1rem;
+  padding: 1rem;
   position: sticky;
   top: 0;
   background-color: #F1F2F2;
 }
 
 .navbar h2{
-  font-size: 2.10rem;
+  font-size: 1.75rem;
   font-family: 'Ms Madi', cursive;
   letter-spacing: 4px;
 }
 
 .left a{
   padding: 0 .50rem;
-  font-size: 1.20rem;
+  font-size: .90rem;
 }
 
 .right a{
   padding: 0 .50rem;
-  font-size: 1.20rem;
+  font-size: 0.90rem;
 }
 
 .mobile-nav{
