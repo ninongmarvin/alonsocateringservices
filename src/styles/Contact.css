@@ -108,7 +108,7 @@
 .contact-form{
   display: flex;
   flex-direction: column;
-  width: 40%;
+  width: 50%;
   margin: auto;
   justify-content: center;
   text-align: center;
@@ -120,13 +120,14 @@
   text-transform: uppercase;
   letter-spacing: 15px;
   font-weight: 300;
-  font-size: 2.50rem;
+  font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .contact-form input{
-  padding: 1rem;
+  padding: 0.90rem;
   border-radius: 7px;
-  font-size: 1.10rem;
+  font-size: 1rem;
 }
 
 .contact-form input, textarea:focus{
@@ -140,7 +141,7 @@
 }
 
 .contact-form label{
-  font-size: 1.25rem;
+  font-size: 1.20rem;
   color: #F1F2F2;
   letter-spacing: 4px;
   font-weight: 200;
@@ -152,14 +153,14 @@
 .contact-form textarea{
   padding: 1rem;
   border-radius: 7px;
-  font-size: 1.10rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
 .contact-form button{
   padding: 1rem;
   border-radius: 7px;
-  font-size: 1.10rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
   cursor: pointer;
   border: solid #F1F2F2 1px;
