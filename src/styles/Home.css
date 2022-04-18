@@ -1,0 +1,321 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .home{
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body .divide{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+  }
+
+  body .left-divide h1{
+    margin-top: -50px;
+    color: #F1F2F2;
+    letter-spacing: 5px;
+    font-size: 1.50rem;
+    line-height: 1.50rem;
+    transition: 0.4s;
+    font-family: 'Beau Rivage', cursive;
+  }
+
+  body .right-divide h1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #F1F2F2;
+    letter-spacing: 5px;
+    font-size: 1.50rem;
+    transition: 0.4s;
+  }
+
+  body .show{
+    display: none;
+    transition: 0.4s;
+  }
+
+  body .mobile-why{
+    color: #F1F2F2;
+    padding: 1rem;
+    align-items: start;
+  }
+
+  body .mobile-why p{
+    text-align: left;
+    margin: 1rem 0;
+  }
+
+  body .btn{
+    border: 1px solid #F1F2F2;
+    color: #F1F2F2;
+    padding: 0.25rem;
+    justify-content: flex-start;
+  }
+
+  body .right-divide:hover{
+    background-color: transparent;
+  }
+
+  body .right-divide:hover p{
+    color: #F1F2F2;
+  }
+
+  body .right-divide:hover h1{
+    color: #F1F2F2;
+  }
+
+  body .left-divide:hover h1{
+    color: #F1F2F2;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  body .home{
+    height: 100vh;
+  }
+
+  body .divide{
+    grid-template-columns: repeat(1, minmax(0,1fr));
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    grid-gap: 0;
+  }
+
+  body .left-divide h1{
+    margin-top: 75px;
+    letter-spacing: 10px;
+    line-height: 50px;
+    font-size: 2rem;
+    transition: 0.4s;
+    font-family: 'Beau Rivage', cursive;
+    color: #F1F2F2;
+  }
+
+  body .right-divide h1{
+    margin-top: 75px;
+    font-size: 2rem;
+    text-align: center;
+    color: #F1F2F2;
+  }
+
+  body .right-divide:hover{
+    background-color: transparent;
+  }
+
+  body .right-divide:hover p{
+    color: #F1F2F2;
+  }
+
+  body .right-divide:hover h1{
+    color: #F1F2F2;
+  }
+
+  body .left-divide:hover h1{
+    color: #F1F2F2;
+  }
+  body .left-divide:hover{
+    background-color: transparent;
+  }
+
+  body .show{
+    display: none;
+    transition: 0.4s;
+  }
+
+  body .mobile-why{
+    color: #F1F2F2;
+    padding: 1rem;
+    align-items: start;
+  }
+
+  body .mobile-why p{
+    text-align: left;
+    margin: 1.20rem 0;
+  }
+
+  body .btn{
+    border: 1px solid #F1F2F2;
+    color: #F1F2F2;
+    padding: 0.25rem;
+    justify-content: flex-start;
+  }
+
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  body .home{
+    height: 100vh;
+  }
+
+  body .divide{
+    grid-template-columns: repeat(1, minmax(0,1fr));
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    grid-gap: 0;
+  }
+
+  body .left-divide h1{
+    margin-top: 175px;
+    letter-spacing: 10px;
+    line-height: 50px;
+    font-size: 2rem;
+    transition: 0.4s;
+    font-family: 'Beau Rivage', cursive;
+    color: #F1F2F2;
+  }
+
+  body .right-divide h1{
+    margin-top: -100px;
+    font-size: 2rem;
+    text-align: left;
+    color: #F1F2F2;
+  }
+
+  body .right-divide:hover{
+    background-color: transparent;
+  }
+
+  body .right-divide:hover p{
+    color: #F1F2F2;
+  }
+
+  body .right-divide:hover h1{
+    color: #F1F2F2;
+  }
+
+  body .left-divide:hover h1{
+    color: #F1F2F2;
+  }
+  body .left-divide:hover{
+    background-color: transparent;
+  }
+
+  body .show{
+    display: none;
+    transition: 0.4s;
+  }
+
+  body .mobile-why{
+    color: #F1F2F2;
+    align-items: center;
+  }
+
+  body .mobile-why p{
+    text-align: left;
+    margin: 1.20rem 0;
+  }
+
+  body .btn{
+    border: 1px solid #F1F2F2;
+    color: #F1F2F2;
+    padding: 0.25rem;
+    justify-content: flex-start;
+  }
+}
+
+.home{
+  height: 87vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divide{
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0,1fr));
+  grid-gap: 100px;
+  height: 87vh;
+}
+
+.left-divide{
+  text-align: center;
+  transition: 0.4s;
+}
+
+.left-divide:hover {
+  background-color: rgba(0, 242, 113, 0.8);
+  transition: 0.4s;
+}
+
+.left-divide:hover h1{
+  color: #F1F2F2;
+  transition: 0.4s;
+}
+
+.left-divide h1{
+  margin-top: 100px;
+  color: #1B261D;
+  letter-spacing: 10px;
+  line-height: 110px;
+  font-size: 4.50rem;
+  transition: 0.4s;
+  font-family: 'Beau Rivage', cursive;
+}
+
+.right-divide{
+  transition: 0.4s;
+  padding: 1rem;
+}
+
+.right-divide:hover{
+  background-color: rgba(120, 97, 227, 0.8);
+}
+
+.show{
+  display: contents;
+  transition: 0.4s;
+}
+
+.hide{
+  display: none;
+  transition: 0.4s;
+}
+
+.right-divide:hover h1{
+  color: #F1F2F2;
+  transition: 0.4s;
+}
+
+.right-divide:hover p{
+  color: #F1F2F2;
+  transition: 0.4s;
+}
+
+.right-divide h1{
+  margin-top: 100px;
+  color: #1B261D;
+  letter-spacing: 5px;
+  font-size: 3.50rem;
+  transition: 0.4s;
+}
+
+.show p{
+  font-size: 1.10rem;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+}
+
+.btn{
+  padding: .50rem 1rem;
+  border: 1px solid #F1F2F2;
+  margin-left: 1rem;
+  color: #F1F2F2;
+  border-radius: 10px;
+  transition: 0.4s;
+  font-size: 1.10rem;
+}
+
+.btn:hover{
+  background-color: #F1F2F2;
+  color: #1B261D;
+  transition: 0.4s;
+}

@@ -1,0 +1,147 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .navbar{
+    display: none;
+  }
+
+  body .mobile-nav{
+    display: contents;
+    width: 100%;
+  }
+
+  body .mobile-container{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  body .mobile-btn{
+    padding: 0.50rem;
+    background-color: #F1F2F2;
+    display: flex;
+  }
+
+  body .mobile-btn h2{
+    margin-left: 50px;
+    font-family: 'Ms Madi', cursive;
+    letter-spacing: 4px;
+  }
+
+  body .mobile-links{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -200px;
+    padding: 0.50rem;
+  }
+
+  body .mobile-clicked{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #F1F2F2;
+    width: 100%;
+    padding: 0.50rem;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  body .navbar{
+    display: none;
+  }
+
+  body .mobile-nav{
+    display: contents;
+    width: 100%;
+  }
+
+  body .mobile-container{
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  body .mobile-btn{
+    padding: 0.50rem;
+    background-color: #F1F2F2;
+    display: flex;
+  }
+
+  body .mobile-btn h2{
+    margin-left: 150px;
+    font-family: 'Ms Madi', cursive;
+    letter-spacing: 4px;
+  }
+
+  body .mobile-links{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: -200px;
+    padding: 0.50rem;
+  }
+
+  body .mobile-clicked{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: #F1F2F2;
+    width: 100%;
+    padding: 0.50rem;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  body .navbar h2{
+    font-size: 1.30rem;
+    font-family: 'Ms Madi', cursive;
+    letter-spacing: 4px;
+  }
+
+  body .left a{
+    padding: 0 .50rem;
+    font-size: 1rem;
+  }
+
+  body .right a{
+    padding: 0 .50rem;
+    font-size: 1rem;
+  }
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+  position: sticky;
+  top: 0;
+  background-color: #F1F2F2;
+}
+
+.navbar h2{
+  font-size: 2.10rem;
+  font-family: 'Ms Madi', cursive;
+  letter-spacing: 4px;
+}
+
+.left a{
+  padding: 0 .50rem;
+  font-size: 1.20rem;
+}
+
+.right a{
+  padding: 0 .50rem;
+  font-size: 1.20rem;
+}
+
+.mobile-nav{
+  display: none;
+}
+
+#hide{
+  display: none;
+}

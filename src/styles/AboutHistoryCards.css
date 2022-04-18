@@ -1,0 +1,70 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .inlay h1{
+    font-size: 1.50rem;
+  }
+
+  body .inlay p{
+    font-size: .90rem;
+  }
+}
+
+.cards p{
+  font-size: 1.15rem;
+  line-height: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: 1.50px;
+  font-weight: 300;
+}
+
+.history-image{
+  width: 100%;
+  height: 600px;
+  margin-bottom: 2rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 0.4s;
+}
+
+.inlay{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.hide-desc{
+  display: none;
+  transition: 0.4s;
+}
+
+.show-desc{
+  display: contents;
+  width: 50%;
+  margin: auto;
+  transition: 0.4s;
+}
+
+.history-image:hover .inlay{
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: 0.4s;
+}
+
+
+.inlay h1{
+  font-size: 3rem;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: #F1F2F2;
+  font-weight: 600;
+}
+
+.inlay p{
+  color: #F1F2F2;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 1.25rem;
+}

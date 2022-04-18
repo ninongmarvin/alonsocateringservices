@@ -1,0 +1,124 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .all-locations h1{
+    font-size: 1.50rem;
+  }
+
+  body .locations{
+    padding: 1rem 0;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  body .all-locations h1{
+    font-size: 2.10rem;
+  }
+
+  body .locations{
+    padding: 1.50rem 0;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  body .all-locations h1{
+    font-size: 2.20rem;
+  }
+
+  body .locations{
+    padding: 2rem 0;
+  }
+}
+
+.all-locations h1{
+  margin-bottom: .75rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.75rem;
+  background-color: #F1F2F2;
+  padding: .50rem;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.locations{
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  background-color: #F1F2F2;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.more-cities{
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.left-cities{
+  width: 100%;
+  border: 5px solid rgb(120, 97, 227);
+}
+
+.right-cities{
+  width: 100%;
+  border: 5px solid rgb(120, 97, 227);
+}
+
+.arrow-cities{
+  padding: 1rem;
+  border-radius: 100%;
+  margin: .50rem 1rem;
+  background-color: rgb(120, 97, 227);
+  cursor: pointer;
+  font-weight: 600;
+  color: #F1F2F2;
+  transition: 0.4s;
+}
+
+.arrow-cities:hover{
+  background-color: rgb(0, 242, 113);
+  color: #1B261D;
+  transition: 0.4s;
+}
+
+.less-cities{
+  margin-bottom: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lessLeft-cities{
+  border: 5px solid rgb(0, 242, 113);
+  width: 100%;
+}
+
+.lessRight-cities{
+  border: 5px solid rgb(0, 242, 113);
+  width: 100%;
+}
+
+.lessArrow-cities{
+  padding: 1rem;
+  border-radius: 100%;
+  margin: .50rem 1rem;
+  background-color: rgb(0, 242, 113);
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.4s;
+}
+
+.lessArrow-cities:hover{
+  background-color: rgb(120, 97, 227);
+  color: #F1F2F2;
+  transition: 0.4s;
+}
+
+.arrow-container{
+  width: 100%;
+}

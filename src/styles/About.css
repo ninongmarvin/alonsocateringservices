@@ -1,0 +1,158 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .about-us h1{
+    color: #F1F2F2;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-size: 2.25rem;
+    margin-top: 5rem;
+  }
+
+  body .about-us p{
+    text-align: justify;
+    line-height: 2rem;
+    letter-spacing: 1px;
+    color: #F1F2F2;
+    font-size: .90rem;
+    font-weight: 200;
+  }
+
+  body .about-us{
+    width: 90%;
+  }
+
+  body .history{
+    padding: 2rem 1rem;
+  }
+
+  body .history h1{
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+  }
+
+  body .we-do{
+    width: 90%;
+    padding: 0 1.50rem;
+  }
+
+  body .we-do h1{
+    margin-bottom: 1rem;
+    font-size: 1.10rem;
+  }
+
+  body .we-do p{
+    line-height: 1.50rem;
+    font-size: .90rem;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  body .we-do{
+    width: 90%;
+    padding: 0 2rem;
+  }
+
+  body .we-do h1{
+    margin-bottom: 1rem;
+    font-size: 1.50rem;
+  }
+
+  body .we-do p{
+    line-height: 1.50rem;
+    font-size: .90rem;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  body .we-do{
+    width: 90%;
+    padding: 0 3rem;
+  }
+
+  body .we-do h1{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+
+  body .we-do p{
+    line-height: 1.50rem;
+    font-size: 1.10rem;
+  }
+}
+
+.about{
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-container{
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.about-us{
+  width: 60%;
+  height: 75%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about-us h1{
+  color: #F1F2F2;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-size: 4rem;
+  line-height: 7rem;
+}
+
+.about-us p{
+  text-align: justify;
+  line-height: 2rem;
+  letter-spacing: 2px;
+  color: #F1F2F2;
+  font-size: 1.10rem;
+  font-weight: 200;
+}
+
+.history{
+  padding: 3rem 2rem;
+}
+
+.history h1{
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: 2.50rem;
+}
+
+.we-do{
+  width: 60%;
+  margin: auto;
+  margin-bottom: 3rem;
+  padding: 0 3rem;
+  border-left: solid 5px rgba(0, 242, 113, 0.8);
+  border-right: solid 5px rgba(0, 242, 113, 0.8);
+}
+
+.we-do h1{
+  margin-bottom: 1.10rem;
+  color: #1B261D;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.we-do p{
+  letter-spacing: 3px;
+  line-height: 1.70rem;
+  font-size: 1.10rem;
+  font-weight: 300;
+}

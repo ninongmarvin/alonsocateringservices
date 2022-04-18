@@ -1,0 +1,80 @@
+@media only screen and (min-width: 300px) and (max-width: 500px) {
+  body .cities{
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  body .all-cities h3{
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 900px) {
+  body .cities{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  body .all-cities h3{
+    font-size: 1.50rem;
+  }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+  body .cities{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  body .all-cities h3{
+    font-size: 2rem;
+  }
+}
+
+.all-cities h3{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 1.50rem;
+}
+
+.cities{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.cities-card{
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+  margin-bottom: 1rem;
+}
+
+.cities-card img{
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  cursor: pointer;
+  box-shadow: 3px 1px 9px 1px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 3px 1px 9px 1px rgba(0,0,0,0.43);
+  -moz-box-shadow: 3px 1px 9px 1px rgba(0,0,0,0.43);
+}
+
+.cities-description{
+  padding: .75rem;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin-bottom: 1rem;
+  color: #F1F2F2;
+  background-color: rgb(120, 97, 227);
+  transition: 0.4s;
+  box-shadow: 3px 1px 9px 1px rgba(0,0,0,0.43);
+  -webkit-box-shadow: 3px 1px 9px 1px rgba(0,0,0,0.43);
+  -moz-box-shadow: 3px 1px 9px 1px rgba(0,0,0,0.43);
+}
+
+.cities-description:hover{
+  background-color: rgb(0, 242, 113);
+  transition: 0.4s;
+}
