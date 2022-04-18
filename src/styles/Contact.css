@@ -6,7 +6,7 @@
 
   body .contact-form h1{
     letter-spacing: 10px;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
   }
 
   body .contact-form input{
@@ -16,6 +16,7 @@
 
   body .contact-form label{
     font-size: 1rem;
+    margin-top: 1rem;
   }
 
   body .contact-form textarea{
