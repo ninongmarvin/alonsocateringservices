@@ -17,7 +17,7 @@ const Navbar = () => {
     <>
       <div className="navbar">
         <div className="left">
-          <Link to="/">Home</Link>
+          <Link to="/alonsocateringservices">Home</Link>
           <Link to="/about">About Us</Link>
           <Link to="/contact">Contact Us</Link>
         </div>
@@ -35,7 +35,7 @@ const Navbar = () => {
             <h2>Alonso's Catering Services</h2>
           </div>
           <div className={mobile ? "mobile-clicked" : "mobile-links"} id={mobile ? "" : "hide"}>
-            <Link to="/" style={{marginBottom: `2rem`, fontSize: `1.10rem`}} onClick={close}>Home</Link>
+            <Link to="/alonsocateringservices" style={{marginBottom: `2rem`, fontSize: `1.10rem`}} onClick={close}>Home</Link>
             <Link to="/about" style={{marginBottom: `2rem`, fontSize: `1.10rem`}} onClick={close}>About Us</Link>
             <Link to="/contact" style={{marginBottom: `2rem`, fontSize: `1.10rem`}} onClick={close}>Contact Us</Link>
             <Link to="/food" style={{marginBottom: `2rem`, fontSize: `1.10rem`}} onClick={close}>Food Selections</Link>
