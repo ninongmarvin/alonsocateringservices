@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/alonsocateringservices/static/css/main.a2b5218e.css",
+    "main.css": "/alonsocateringservices/static/css/main.80534849.css",
     "main.js": "/alonsocateringservices/static/js/main.a8c86f08.js",
     "static/media/history2.jpg": "/alonsocateringservices/static/media/history2.fc4bb3c67ed730a9637f.jpg",
     "static/media/banner.jpg": "/alonsocateringservices/static/media/banner.3bfd1bd3dce394745190.jpg",
@@ -29,11 +29,11 @@
     "static/media/debut.jpg": "/alonsocateringservices/static/media/debut.13fa51c9c81277f70344.jpg",
     "static/media/chicken.jpg": "/alonsocateringservices/static/media/chicken.310a12ffbed4e9a795ca.jpg",
     "index.html": "/alonsocateringservices/index.html",
-    "main.a2b5218e.css.map": "/alonsocateringservices/static/css/main.a2b5218e.css.map",
+    "main.80534849.css.map": "/alonsocateringservices/static/css/main.80534849.css.map",
     "main.a8c86f08.js.map": "/alonsocateringservices/static/js/main.a8c86f08.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2b5218e.css",
+    "static/css/main.80534849.css",
     "static/js/main.a8c86f08.js"
   ]
 }
